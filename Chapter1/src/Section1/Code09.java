@@ -1,4 +1,4 @@
-package Session01;
+package Section1;
 
 public class Code09 {
 
