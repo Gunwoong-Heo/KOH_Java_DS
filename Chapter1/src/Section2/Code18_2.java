@@ -2,7 +2,7 @@ package Section2;
 
 import java.util.Scanner;
 
-public class Code18 {
+public class Code18_2 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
@@ -24,11 +24,20 @@ public class Code18 {
             for( int j=0; j<i; j++) {
                 int tmp = data[j];
                 if(data[j] > data[j+1]) {
-                    data[j] = data[j+1];
-                    data[j+1] = tmp;
+//                    data[j] = data[j+1];
+//                    data[j+1] = tmp;
+                    swap(data[j], data[j+1]);
                 }
             }
         }
     }
+
+    public static void swap(int a, int b) {
+        int tmp = a;
+        a=b;
+        b=tmp;
+    }
+
+
 
 }
