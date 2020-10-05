@@ -14,7 +14,7 @@ public class Code03 {
     public static void main(String[] args) {
         Scanner in;
         try {
-            in = new Scanner(new File("Chapter2/input.txt"));
+            in = new Scanner(new File("Chapter2/src/input.txt"));
             while (in.hasNext()) {
                 String nm = in.next();
                 String nb = in.next();
